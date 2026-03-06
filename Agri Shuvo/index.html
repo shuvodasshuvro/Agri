@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriHub | Agricultural Information Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Agri<span>Hub</span></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#guides">Farming Guides</a></li>
+                <li><a href="#crops">Crop Details</a></li>
+                <li><a href="#pest-control">Pest Control</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to the Agricultural Information Hub</h1>
+        <p>Your comprehensive resource for modern farming practices, crop management, and expert pest control strategies.</p>
+        <a href="#guides" class="btn">Explore Guides</a>
+    </section>
+
+    <section id="guides" class="container">
+        <h2 class="section-title">Farming Guides & Tutorials</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Soil Preparation</h3>
+                <p>Step-by-step instructions on testing pH levels and organic fertilization.</p>
+            </div>
+            <div class="card">
+                <h3>Irrigation Techniques</h3>
+                <p>Best practices for drip irrigation and water conservation during dry seasons.</p>
+            </div>
+            <div class="card">
+                <h3>Seasonal Planting</h3>
+                <p>Categorized guides based on summer, monsoon, and winter crop cycles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="crops" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Detailed Crop Profiles</h2>
+            <div class="grid">
+                <div class="crop-item">
+                    <img src="https://via.placeholder.com/150" alt="Grains">
+                    <h3>Grains</h3>
+                    <p>Rice, Wheat, and Maize: Cultivation methods and nutritional values.</p>
+                </div>
+                <div class="crop-item">
+                    <img src="https://via.placeholder.com/150" alt="Vegetables">
+                    <h3>Vegetables</h3>
+                    <p>Organic techniques for high-yield tomato and leafy green production.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pest-control" class="container">
+        <h2 class="section-title">Integrated Pest Management</h2>
+        <div class="pest-box">
+            <h3>Biological Controls</h3>
+            <p>Using natural predators and organic remedies to protect your harvest without chemicals.</p>
+            <p><strong>Tip:</strong> Early detection is key to preventing widespread infestation.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact Our Experts</h2>
+            <form id="agriForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="expertise">
+                        <option value="">Select Expertise Needed</option>
+                        <option value="crops">Crop Management</option>
+                        <option value="pest">Pest Control</option>
+                        <option value="soil">Soil Science</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Inquiry..."></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Agricultural Information Hub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
